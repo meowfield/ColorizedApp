@@ -23,7 +23,7 @@
                         <barButtonItem key="rightBarButtonItem" landscapeImage="square.and.pencil" catalog="system" id="7zP-Fi-Udw">
                             <imageReference key="image" image="square.and.pencil" catalog="system" symbolScale="default"/>
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="nCO-2d-akh"/>
+                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="nCO-2d-akh"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -41,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="w9a-h5-fAz">
-                                <rect key="frame" x="20" y="104.00000000000001" width="335" height="178.33333333333337"/>
+                                <rect key="frame" x="20" y="10" width="335" height="178.33333333333334"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="42c-M2-Grc">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="178.33333333333334"/>
@@ -53,7 +53,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="28N-6C-7xm">
-                                <rect key="frame" x="155.33333333333334" y="723.66666666666663" width="64.333333333333343" height="34.333333333333371"/>
+                                <rect key="frame" x="155.33333333333334" y="757.66666666666663" width="64.333333333333343" height="34.333333333333371"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSO-Ck-uJB">
                                         <rect key="frame" x="0.0" y="0.0" width="64.333333333333329" height="34.333333333333336"/>
@@ -69,7 +69,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="K6s-v2-dTf">
-                                <rect key="frame" x="20" y="302.33333333333331" width="335" height="130"/>
+                                <rect key="frame" x="20" y="208.33333333333337" width="335" height="130"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="i8W-To-f8c">
                                         <rect key="frame" x="0.0" y="0.0" width="5" height="130"/>
@@ -84,13 +84,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SS2-AU-CaT">
-                                                        <rect key="frame" x="0.0" y="55" width="0.0" height="20"/>
+                                                        <rect key="frame" x="0.0" y="54.999999999999972" width="0.0" height="20"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfE-We-WXe">
-                                                        <rect key="frame" x="0.0" y="110" width="0.0" height="20"/>
+                                                        <rect key="frame" x="0.0" y="109.99999999999997" width="0.0" height="20"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -107,13 +107,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.50" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JCv-1Y-xDo">
-                                                        <rect key="frame" x="0.0" y="55" width="0.0" height="20"/>
+                                                        <rect key="frame" x="0.0" y="54.999999999999972" width="0.0" height="20"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.50" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hbI-OE-WmR">
-                                                        <rect key="frame" x="0.0" y="110" width="0.0" height="20"/>
+                                                        <rect key="frame" x="0.0" y="109.99999999999997" width="0.0" height="20"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -133,14 +133,14 @@
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0K0-Ta-7BK">
-                                                <rect key="frame" x="-2" y="55" width="251" height="21"/>
+                                                <rect key="frame" x="-2" y="54.999999999999972" width="251" height="21"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                                 <connections>
                                                     <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="UUY-Si-nIW"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Moa-Ha-oFi">
-                                                <rect key="frame" x="-2" y="110" width="251" height="21"/>
+                                                <rect key="frame" x="-2" y="109.99999999999997" width="251" height="21"/>
                                                 <connections>
                                                     <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="UZd-TZ-kBV"/>
                                                 </connections>
@@ -156,12 +156,12 @@
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" placeholder="0.00" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="qmp-rs-O9I">
-                                                <rect key="frame" x="0.0" y="55" width="45" height="20"/>
+                                                <rect key="frame" x="0.0" y="54.999999999999972" width="45" height="20"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" placeholder="0.00" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="jHJ-uO-nrl">
-                                                <rect key="frame" x="0.0" y="110" width="45" height="20"/>
+                                                <rect key="frame" x="0.0" y="109.99999999999997" width="45" height="20"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                             </textField>

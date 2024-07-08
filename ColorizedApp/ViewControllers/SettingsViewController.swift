@@ -50,6 +50,7 @@ final class SettingsViewController: UIViewController {
     @IBAction func doneButtonTapped() {
         delegate?.sendColor(color: paletteView.backgroundColor ?? .black)
         navigationController?.popViewController(animated: true)
+        dismiss(animated: true)
     }
     
     // MARK: - View Lifecycle
@@ -58,6 +59,10 @@ final class SettingsViewController: UIViewController {
         paletteView.layer.cornerRadius = 10
         getBasicColorState()
         mixingColors()
+        
+        redTextField.delegate = self
+        greenTextField.delegate = self
+        blueTextField.delegate = self
         
         navigationItem.hidesBackButton = true
     }
